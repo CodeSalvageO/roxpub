@@ -1,4 +1,3 @@
-<script>
 <?php
 $username = $POST['Username'];
 $message = $POST['Message'];
@@ -8,4 +7,4 @@ fwrite($fp, $savestring);
 fclose($fp);
 echo file_get_contents("data.txt");
 ?>
-</script>
+
